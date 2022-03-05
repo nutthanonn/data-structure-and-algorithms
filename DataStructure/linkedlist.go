@@ -97,3 +97,5 @@ func main() {
 	list.DataList()                         // เเสดง data ใน linkedlist
 	fmt.Println(list.PositionAtListNode(1)) // ถามว่า position 1 เก็บ node อะไร
 }
+
+// ref : https://levelup.gitconnected.com/go-singly-linked-lists-with-insertion-deletion-traversal-e9da5bb0dbe1
