@@ -84,6 +84,17 @@ func (l *LinkedList) DeleteData(position int) {
 	l.size--
 }
 
+func (l *LinkedList) swapNode(pos1, pos2 int) {
+	prevNode := l.PositionAtListNode(pos1 - 1)
+	node_1 := l.PositionAtListNode(pos1)
+	node_2 := l.PositionAtListNode(pos2)
+	temp := node_2.next
+	node_2.next = prevNode.next
+	prevNode.next = node_1.next
+	node_1.next = temp
+
+}
+
 func main() {
 	list := LinkedList{}
 
