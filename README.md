@@ -7,9 +7,15 @@
   - Pointer
   - Stack
   - Queue
-  - linkedlist
+  - LinkedList
   - Heap
   - Binary Search Tree
+    - In-order
+    - Pre-order
+    - Post-order
 
 - Algorithm
-  - Sorted
+  - Bubble Sort **O(n^2)**
+  - Insertion Sort **O(n^2)**
+  - Selection Sort **O(n^2)**
+  - Meege Sort **O(nlogn)**
