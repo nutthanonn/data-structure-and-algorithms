@@ -8,7 +8,7 @@ var ff = make(map[int]int)
 
 func fib(n int) int {
 	res := 0
-	if val, ok := ff[n]; ok { //dynamic programming
+	if val, ok := ff[n]; ok { //dynamic programming --> memoization
 		return val
 	}
 	if n <= 2 {
@@ -20,6 +20,19 @@ func fib(n int) int {
 	return ff[n]
 }
 
+func fib2(n int) int {
+	ff := make(map[int]int)
+	ff[1] = 1
+	ff[2] = 1
+
+	for i := 3; i < n+1; i++ { //dynamic programming --> memoization (Bottom up)
+		ff[i] = ff[i-1] + ff[i-2]
+	}
+
+	return ff[n]
+}
+
 func main() {
-	fmt.Println(fib(10))
+	fmt.Println(fib(1000))
+	fmt.Println(fib2(1000))
 }
