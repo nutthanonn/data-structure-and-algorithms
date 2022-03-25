@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 type Node struct {
@@ -13,6 +12,39 @@ type Node struct {
 type linkedlist struct {
 	head *Node
 	size int
+}
+
+func merge(a, b []int) []int {
+	final := []int{}
+	i := 0
+	j := 0
+	for i < len(a) && j < len(b) {
+		if a[i] < b[j] {
+			final = append(final, a[i])
+			i++
+		} else {
+			final = append(final, b[j])
+			j++
+		}
+	}
+	for ; i < len(a); i++ {
+		final = append(final, a[i])
+	}
+
+	for ; j < len(a); j++ {
+		final = append(final, b[j])
+	}
+
+	return final
+}
+
+func mergeSort(items []int) []int {
+	if len(items) < 2 {
+		return items
+	}
+	first := mergeSort(items[:len(items)/2])
+	secound := mergeSort(items[len(items)/2:])
+	return merge(first, secound)
 }
 
 func (l *linkedlist) Insert(val int) {
@@ -42,8 +74,9 @@ func (l *linkedlist) SortLinkedlist() {
 		data_arr = append(data_arr, ptr.Val)
 		ptr = ptr.next
 	}
-	sort.Slice(data_arr, func(i, j int) bool { return data_arr[i] < data_arr[j] })
+
 	l.size = 0
+	data_arr = mergeSort(data_arr)
 	for i := 0; i < len(data_arr); i++ {
 		l.Insert(data_arr[i])
 	}
