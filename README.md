@@ -20,7 +20,7 @@
     - [Insertion Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/InsertionSort) **O(n^2)**
     - [Selection Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/SelectionSort) **O(n^2)**
     - [Merge Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/MergeSort) **O(nlogn)**
-  - Searching
+  - [Searching](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching)
     - Binary Search
     - Jump Search
     - [Linear Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching/LinearSearch)
