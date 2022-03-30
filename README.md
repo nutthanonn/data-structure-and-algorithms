@@ -21,7 +21,7 @@
     - [Selection Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/SelectionSort) **O(n^2)**
     - [Merge Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/MergeSort) **O(nlogn)**
   - [Searching](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching)
-    - Binary Search
+    - [Binary Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching/BinarySearch)
     - Jump Search
     - [Linear Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching/LinearSearch)
   - [Dynamic Programming](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/DynamicProgramming)
