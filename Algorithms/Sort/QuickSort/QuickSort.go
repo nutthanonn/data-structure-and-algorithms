@@ -26,9 +26,7 @@ func partition(arr []int, low, high int) int {
 		}
 
 		if i < j {
-			var temp = arr[i]
-			arr[i] = arr[j]
-			arr[j] = temp
+			arr[i], arr[j] = arr[j], arr[i]
 		}
 	}
 
