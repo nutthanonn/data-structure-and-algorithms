@@ -13,6 +13,7 @@
     - [In-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree/InorderTree)
     - Pre-order
     - Post-order
+    - [Level-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree/LeverOrderTree)
 
 - [Algorithm](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms)
   - [Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort)
@@ -26,3 +27,6 @@
     - [Linear Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching/LinearSearch)
   - [Dynamic Programming](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/DynamicProgramming)
     - fibonacci problem
+  - Tree
+    - [Depth-First-Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/DFS)
+    - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/inplace)
