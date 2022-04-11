@@ -29,4 +29,5 @@
     - fibonacci problem
   - Tree
     - [Depth-First-Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/DFS)
+  - Reverse Array
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/inplace)
