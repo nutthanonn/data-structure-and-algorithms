@@ -33,7 +33,7 @@
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/inplace)
 
 ```golang
-// Nuthtanon Thongcharoen PREORDER TREE TRAVERSAL
+// NUTTHANON THONGCHAROEN PREORDER TREE TRAVERSAL
 
 package main
 
