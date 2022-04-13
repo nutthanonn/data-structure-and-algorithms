@@ -8,6 +8,10 @@ type Node struct {
 	Right *Node
 }
 
+type Array struct {
+	s []int
+}
+
 func (n *Node) Insert(val int) {
 	new_node := Node{}
 	new_node.Val = val
@@ -27,30 +31,28 @@ func (n *Node) Insert(val int) {
 	}
 }
 
-func (n *Node) Search(val int) bool {
+func (this *Array) ProOrder(n *Node) {
 	if n == nil {
-		return false
+		return
 	}
 
-	if n.Val > val {
-		return n.Left.Search(val)
-	} else if n.Val < val {
-		return n.Right.Search(val)
-	}
-
-	return true
+	this.s = append(this.s, n.Val)
+	this.ProOrder(n.Left)
+	this.ProOrder(n.Right)
 }
 
 func main() {
-	t := Node{Val: 200}
+	t := &Node{Val: 100}
+	t.Insert(50)
+	t.Insert(90)
 	t.Insert(10)
-	t.Insert(2304)
-	t.Insert(123)
-	t.Insert(2345)
-	t.Insert(31)
 
-	fmt.Println(t.Search(31))
-	fmt.Println(t.Search(10))
-	fmt.Println(t.Search(2304))
-	fmt.Println(t.Search(230))
+	t.Insert(150)
+	t.Insert(190)
+	t.Insert(110)
+
+	s := &Array{}
+	s.ProOrder(t)
+	fmt.Println(s.s)
+
 }
