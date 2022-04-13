@@ -31,3 +31,62 @@
     - [Depth-First-Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/DFS)
   - Reverse Array
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/inplace)
+
+```golang
+// Nuthtanon Thongcharoen PREORDER TREE TRAVERSAL
+
+package main
+
+import "fmt"
+
+type Node struct {
+	Val   string
+	Left  *Node
+	Right *Node
+}
+
+type Stack struct {
+	s []string
+}
+
+func (this *Stack) PreOrder(n *Node) {
+	if n == nil {
+		return
+	}
+
+	this.s = append(this.s, n.Val)
+	this.PreOrder(n.Left)
+	this.PreOrder(n.Right)
+}
+
+func main() {
+	T := &Node{Val: "N"}
+	T.Left = &Node{Val: "U"}
+	T.Left.Left = &Node{Val: "T"}
+	T.Left.Right = &Node{Val: "N"}
+	T.Left.Left.Left = &Node{Val: "T"}
+	T.Left.Left.Right = &Node{Val: "O"}
+	T.Left.Left.Left.Left = &Node{Val: "H"}
+	T.Left.Left.Left.Right = &Node{Val: "N"}
+	T.Left.Left.Left.Left.Left = &Node{Val: "A"}
+
+	T.Right = &Node{Val: "T"}
+	T.Right.Right = &Node{Val: "H"}
+	T.Right.Left = &Node{Val: "H"}
+	T.Right.Left.Right = &Node{Val: "C"}
+	T.Right.Left.Left = &Node{Val: "O"}
+	T.Right.Left.Left.Left = &Node{Val: "N"}
+	T.Right.Left.Left.Right = &Node{Val: "G"}
+
+	T.Right.Right.Right = &Node{Val: "R"}
+	T.Right.Right.Left = &Node{Val: "A"}
+	T.Right.Right.Right.Right = &Node{Val: "E"}
+	T.Right.Right.Right.Left = &Node{Val: "O"}
+	T.Right.Right.Right.Right.Right = &Node{Val: "N"}
+
+	my_name := &Stack{}
+	my_name.PreOrder(T)
+	fmt.Println(my_name.s)
+}
+
+```
