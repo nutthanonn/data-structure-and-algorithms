@@ -11,8 +11,8 @@
   - [Heap](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/heaps)
   - [Binary Search Tree](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree)
     - [In-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree/InorderTree)
-    - Pre-order
-    - Post-order
+    - [Pre-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree/PreorderTree)
+    - [Post-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree/PostOrderTree)
     - [Level-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree/LeverOrderTree)
 
 - [Algorithm](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms)
