@@ -10,10 +10,10 @@
   - [LinkedList](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/linkedlist)
   - [Heap](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/heaps)
   - [Binary Search Tree](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal)
-    - [In-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/InorderTree)
-    - [Pre-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/PreorderTree)
+    - [In-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/InOrderTree)
+    - [Pre-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/PreOrderTree)
     - [Post-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/PostOrderTree)
-    - [Level-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/LeverOrderTree)
+    - [Level-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/LevelOrderTree)
 
 - [Algorithm](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms)
   - [Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort)
