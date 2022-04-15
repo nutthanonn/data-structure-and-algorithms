@@ -9,6 +9,9 @@
 ```golang
 
 func TRAVERSAL(n *Node){
+    if n == nil {
+        // return something
+    }
     // append node value to array
     TRAVERSAL(n.Left)
     TRAVERSAL(n.Right)
@@ -20,6 +23,9 @@ func TRAVERSAL(n *Node){
 
 ```golang
 func TRAVERSAL(n *Node){
+    if n == nil {
+        // return something
+    }
     TRAVERSAL(n.Left)
     // append node value to array
     TRAVERSAL(n.Right)
@@ -30,6 +36,9 @@ func TRAVERSAL(n *Node){
 
 ```golang
 func TRAVERSAL(n *Node){
+    if n == nil {
+        // return something
+    }
     TRAVERSAL(n.Left)
     TRAVERSAL(n.Right)
     // append node value to array
