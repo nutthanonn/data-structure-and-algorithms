@@ -4,9 +4,7 @@
 
 ### การเขียน In Pre Post เขียนเหมือนกันทุกประการ เปลี่ยนเเค่บรรทัดที่ append node.value
 
-`Pre Order`
-
-:point_down:
+`Pre Order` :point_down:
 
 ```golang
 
@@ -18,9 +16,7 @@ func TRAVERSAL(n *Node){
 
 ```
 
-`In Order`
-
-:point_down:
+`In Order` :point_down:
 
 ```golang
 func TRAVERSAL(n *Node){
@@ -30,9 +26,7 @@ func TRAVERSAL(n *Node){
 }
 ```
 
-`Post Order`
-
-:point_down:
+`Post Order` :point_down:
 
 ```golang
 func TRAVERSAL(n *Node){
@@ -42,9 +36,7 @@ func TRAVERSAL(n *Node){
 }
 ```
 
-:point_up_2:
-
-จาก Code ด้านบน จะเห็นได้ชัดเจนเลยว่า in pre post-order มีตำเเหน่งการ append to array ที่ตามชื่อเลย
+:point_up_2: จาก Code ด้านบน จะเห็นได้ชัดเจนเลยว่า in pre post-order มีตำเเหน่งการ append to array ที่ตามชื่อเลย
 
 ## Example TREE
 
