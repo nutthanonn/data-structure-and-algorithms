@@ -32,9 +32,24 @@ func (this *Node) DFS() {
 		return
 	}
 
-	this.Left.DFS()
-	fmt.Println(this.Val)
-	this.Right.DFS()
+	stack := []*Node{}
+	stack = append(stack, this) //push
+
+	for len(stack) != 0 {
+		ptr := stack[len(stack)-1]
+		fmt.Println(ptr.Val)
+		stack = stack[:len(stack)-1] //pop
+
+		if ptr.Right != nil {
+			stack = append(stack, ptr.Right)
+		}
+
+		if ptr.Left != nil {
+			stack = append(stack, ptr.Left)
+		}
+
+	}
+
 }
 
 // ########################################################################################################################################################################
@@ -80,11 +95,12 @@ func main() {
 	t.Insert(110)
 	t.Insert(120)
 	t.Insert(105)
+	t.Insert(106)
 
 	t.Insert(50)
 	t.Insert(20)
 	t.Insert(90)
-	// t.DFS()
+	t.DFS()
 
 	// ########################################################################################################################################################################
 
