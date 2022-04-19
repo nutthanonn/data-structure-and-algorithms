@@ -12,6 +12,39 @@ type LinkedList struct {
 	size int
 }
 
+func merge(a, b []int) []int {
+	final := []int{}
+	i := 0
+	j := 0
+	for i < len(a) && j < len(b) {
+		if a[i] < b[j] {
+			final = append(final, a[i])
+			i++
+		} else {
+			final = append(final, b[j])
+			j++
+		}
+	}
+	for ; i < len(a); i++ {
+		final = append(final, a[i])
+	}
+
+	for ; j < len(a); j++ {
+		final = append(final, b[j])
+	}
+
+	return final
+}
+
+func mergeSort(items []int) []int {
+	if len(items) < 2 {
+		return items
+	}
+	first := mergeSort(items[:len(items)/2])
+	secound := mergeSort(items[len(items)/2:])
+	return merge(first, secound)
+}
+
 func (l *LinkedList) Insert(val int) {
 	n := Node{}      // สร้าง Node ใหม่
 	n.value = val    //เอา data เข้ามาเก็บใน Node
@@ -92,7 +125,21 @@ func (l *LinkedList) swapNode(pos1, pos2 int) {
 	node_2.next = prevNode.next
 	prevNode.next = node_1.next
 	node_1.next = temp
+}
 
+func (l *LinkedList) SortLinkedlist() {
+	ptr := l.head
+	data_arr := []int{}
+	for i := 0; i < l.size; i++ {
+		data_arr = append(data_arr, ptr.value)
+		ptr = ptr.next
+	}
+
+	l.size = 0
+	data_arr = mergeSort(data_arr)
+	for i := 0; i < len(data_arr); i++ {
+		l.Insert(data_arr[i])
+	}
 }
 
 func main() {
