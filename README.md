@@ -1,4 +1,4 @@
-# Data Structure and Algorithm
+# Data Structure and Algorithms
 
 > Goal
 
@@ -15,7 +15,7 @@
     - [Post-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/PostOrderTree)
     - [Level-order](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/DataStructure/Tree%20%26%20Traversal/LevelOrderTree)
 
-- [Algorithm](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms)
+- [Algorithms](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms)
   - [Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort)
     - [Bubble Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/BubbleSort) **O(n^2)**
     - [Insertion Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/InsertionSort) **O(n^2)**
