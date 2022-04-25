@@ -28,7 +28,8 @@
   - [Dynamic Programming](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/DynamicProgramming)
     - fibonacci problem
   - Tree & Graph
-    - [Depth-First-Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/DFS)
+    - [Depth First Search](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/DFS)
+    - [Bepth First Search](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/BFS)
   - Reverse Array
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/inplace)
 
