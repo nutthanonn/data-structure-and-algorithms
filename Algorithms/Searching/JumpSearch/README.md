@@ -1,0 +1,3 @@
+# Jump Search
+
+> Golang JumpSearch
