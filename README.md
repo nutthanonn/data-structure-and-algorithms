@@ -19,16 +19,18 @@
 
   - [Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort)
 
-    - [Bubble Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/BubbleSort) 
+    - [Bubble Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/BubbleSort)
     - [Insertion Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/InsertionSort)
     - [Selection Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/SelectionSort)
     - [Merge Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/MergeSort)
-	- [Counting Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/CountingSort)
-	- [Quick Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/QuickSort)
+
+    - [Counting Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/CountingSort)
+
+    - [Quick Sort](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Sort/QuickSort)
 
   - [Searching](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching)
     - [Binary Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching/BinarySearch)
-    - Jump Search
+    - [Jump Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching/JumpSearch)
     - [Linear Search](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Searching/LinearSearch)
   - [Dynamic Programming](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/DynamicProgramming)
     - fibonacci problem
@@ -37,11 +39,14 @@
     - [Depth First Search](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/DFS)
     - [Bepth First Search](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/BFS)
 
-  - [Minimum Spanning Tree](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/MinimumCostSpanningTree)
-    - [Kruskal's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/MinimumCostSpanningTree/Kruskals)
-  - [Shortest Path](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/ShortestPath)
-    - [FloydWarshall](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/ShortestPath/FloydWarshall)
-    - Dijkstra
+    - [Minimum Spanning Tree](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/MinimumCostSpanningTree)
+
+      - [Kruskal's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/MinimumCostSpanningTree/Kruskals)
+
+    - [Shortest Path](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/ShortestPath)
+      - [FloydWarshall](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/ShortestPath/FloydWarshall)
+      - Dijkstra
+
   - Reverse Array
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/inplace)
 
