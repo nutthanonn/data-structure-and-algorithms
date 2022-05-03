@@ -1,38 +1,55 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-#include <stdbool.h>
-
-struct Node{   
-    int data;
-    struct Node *next;
-};
 
 
-struct Node *head = NULL;
+
+typedef struct Node {
+    int Val;
+    struct Node * Next;
+} node_t;
+
+node_t * head = NULL;
 
 
-void Insert(int data){
-    //create linked
-    struct Node *link = (struct Node*)malloc(sizeof(struct Node));  //เหมือนสร้าง Node ใหม่
-    link -> data = data; // ให้ Node ใหม่ เก็บ data  
-    link -> next = head; // ให้ Node.next เก็บ adress ของ head
-    head = link; // ให้ head เก็บ Node ใหม่
+void Insert(node_t** head,int val) {
+    node_t * new_node = (node_t *)malloc(sizeof(node_t));
+    node_t * current = *head;
+
+
+    new_node->Val  = val;
+    new_node->Next = NULL;
+
+    if(*head == NULL) {
+        *head = new_node;   
+        return;
+    }
+
+    while (current -> Next != NULL) {
+        current = current -> Next;
+    }
+    current->Next = new_node;
+    return;
 }
 
-void getLinkedList(){
-    struct Node *ptr = head;
-    while (ptr != NULL){
-        printf("%d\n", ptr->data);
-        ptr = ptr -> next;
+
+
+void Data() {
+    struct Node *current = head;
+    while (current != NULL) {   
+        printf("%d\n", current->Val);
+        current = current->Next;
     }
 }
 
-int main() {
-    Insert(2);
-    Insert(4);
-    Insert(6);
-    Insert(8);
-    getLinkedList();
-}
 
+
+int main(int argc, char const *argv[]) {
+    Insert(&head, 1);
+    Insert(&head, 2);
+    Insert(&head, 3);
+    Insert(&head, 4);
+    Data(); 
+    
+
+    return 0;
+}
