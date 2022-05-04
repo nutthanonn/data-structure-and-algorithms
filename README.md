@@ -43,8 +43,8 @@
 
       - [Kruskal's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/MinimumCostSpanningTree/Kruskals)
 
-    - [Shortest Path](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/ShortestPath)
-      - [FloydWarshall](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/ShortestPath/FloydWarshall)
+    - [Shortest Path](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath)
+      - [FloydWarshall](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath/FloydWarshall)
       - Dijkstra
 
   - Reverse Array
