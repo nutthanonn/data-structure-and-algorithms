@@ -1,19 +1,16 @@
-/*
-
----- Kruskal Algorithm ----
-
-
-*/
-
 package main
 
-import "fmt"
-
-type Graph struct {
-	graph map[string]map[string]int
-}
+import (
+	"encoding/json"
+	"fmt"
+)
 
 func main() {
-	g := &Graph{graph: make(map[string]map[string]int)}
-	fmt.Println(g)
+	fileCount := map[string]int{
+		"cpp": 10,
+		"js":  8,
+		"go":  10,
+	}
+	bytes, _ := json.MarshalIndent(fileCount, "", "  ")
+	fmt.Println(string(bytes))
 }
