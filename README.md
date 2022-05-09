@@ -50,6 +50,8 @@
   - Reverse Array
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/inplace)
 
+[Top Algorithm](https://www.techiedelight.com/top-25-algorithms-every-programmer-should-know/)
+
 ### NUTTHANON THONGCHAROEN PREORDER TREE TRAVERSAL
 
 ```golang
