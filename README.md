@@ -48,8 +48,9 @@
       - Dijkstra
       - [Bellman Ford](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath/BellmanFord)
 
-  - Reverse Array
-    - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/algo/inplace)
+  - Array
+    - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/inplace)
+    - [Min Max](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/Min-Max)
 
 [Top Algorithm](https://www.techiedelight.com/top-25-algorithms-every-programmer-should-know/)
 
