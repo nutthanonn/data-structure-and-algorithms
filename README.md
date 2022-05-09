@@ -84,27 +84,26 @@ func (this *Stack) PreOrder(n *Node) {
 func main() {
 	T := &Node{Val: "N"}
 	T.Left = &Node{Val: "U"}
+	T.Right = &Node{Val: "T"}
 	T.Left.Left = &Node{Val: "T"}
 	T.Left.Right = &Node{Val: "N"}
+	T.Right.Left = &Node{Val: "H"}
+	T.Right.Right = &Node{Val: "H"}
 	T.Left.Left.Left = &Node{Val: "T"}
 	T.Left.Left.Right = &Node{Val: "O"}
-	T.Left.Left.Left.Left = &Node{Val: "H"}
-	T.Left.Left.Left.Right = &Node{Val: "N"}
-	T.Left.Left.Left.Left.Left = &Node{Val: "A"}
-
-	T.Right = &Node{Val: "T"}
-	T.Right.Right = &Node{Val: "H"}
-	T.Right.Left = &Node{Val: "H"}
-	T.Right.Left.Right = &Node{Val: "C"}
 	T.Right.Left.Left = &Node{Val: "O"}
-	T.Right.Left.Left.Left = &Node{Val: "N"}
-	T.Right.Left.Left.Right = &Node{Val: "G"}
-
-	T.Right.Right.Right = &Node{Val: "R"}
 	T.Right.Right.Left = &Node{Val: "A"}
-	T.Right.Right.Right.Right = &Node{Val: "E"}
+	T.Right.Left.Right = &Node{Val: "C"}
+	T.Right.Right.Right = &Node{Val: "R"}
+	T.Left.Left.Left.Left = &Node{Val: "H"}
+	T.Right.Left.Left.Left = &Node{Val: "N"}
+	T.Left.Left.Left.Right = &Node{Val: "N"}
+	T.Right.Left.Left.Right = &Node{Val: "G"}
 	T.Right.Right.Right.Left = &Node{Val: "O"}
+	T.Right.Right.Right.Right = &Node{Val: "E"}
+	T.Left.Left.Left.Left.Left = &Node{Val: "A"}
 	T.Right.Right.Right.Right.Right = &Node{Val: "N"}
+
 
 	my_name := &Stack{}
 	my_name.PreOrder(T)
