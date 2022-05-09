@@ -1,4 +1,4 @@
-# BellmanFord Algorithm
+# BellmanFord's Algorithm
 
 > BellmanFord Golang
 

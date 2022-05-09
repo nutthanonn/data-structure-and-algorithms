@@ -1,3 +1,3 @@
-# FloydWarshall Algorithm
+# FloydWarshall's Algorithm
 
 > FloydWarshall Golang
