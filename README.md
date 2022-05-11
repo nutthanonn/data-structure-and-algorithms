@@ -44,16 +44,16 @@
       - [Kruskal's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/MinimumCostSpanningTree/Kruskals)
 
     - [Shortest Path](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath)
-      - [FloydWarshall's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath/FloydWarshall)
+      - [Floyd Warshall Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath/FloydWarshall)
       - Dijkstra's Algorithm
-      - [Bellman Ford's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath/BellmanFord)
+      - [Bellman Ford Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath/BellmanFord)
 
   - Array
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/inplace)
     - [Min Max](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/Min-Max)
     - [Kadane's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Array/Kadane)
 
-[Top 25 Algorithms](https://www.techiedelight.com/top-25-algorithms-every-programmer-should-know/)
+<a href="https://www.techiedelight.com/top-25-algorithms-every-programmer-should-know/" target="_blank">Top 25 Algorithms</a>x
 
 ### NUTTHANON THONGCHAROEN PREORDER TREE TRAVERSAL
 

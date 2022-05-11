@@ -1,6 +1,6 @@
-# BellmanFord's Algorithm
+# Bellman Ford Algorithm
 
-> BellmanFord Golang
+> Bellman Ford Golang
 
 ### Single Source Shortest Path
 
