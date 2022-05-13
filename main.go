@@ -1,6 +1,5 @@
 /*
-Bellman Ford Algorithm Dynamic Programming
-
+ Kahn's Algorithm
 */
 
 package main
