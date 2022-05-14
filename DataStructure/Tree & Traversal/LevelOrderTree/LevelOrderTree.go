@@ -47,6 +47,32 @@ func (this *Node) LevelOrder() {
 			q = append(q, ptr.Right)
 		}
 	}
+}
+
+func (this *Node) printLevelOrderLinebyLine() {
+	if this == nil {
+		return
+	}
+
+	q := []*Node{}
+	q = append(q, this)
+	for len(q) != 0 {
+		count := len(q)
+		for count > 0 {
+			temp := q[0]
+			q = q[1:]
+			fmt.Printf("%d  ", temp.Val)
+			if temp.Left != nil {
+				q = append(q, temp.Left)
+			}
+
+			if temp.Right != nil {
+				q = append(q, temp.Right)
+			}
+			count--
+		}
+		fmt.Printf("\n")
+	}
 
 }
 
