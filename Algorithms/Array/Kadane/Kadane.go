@@ -14,11 +14,11 @@ func Kadane(arr []int) int {
 		} else {
 			max_curr += arr[i]
 		}
+		if max_curr > max_global {
+			max_global = max_curr
+		}
 	}
 
-	if max_curr > max_global {
-		max_global = max_curr
-	}
 	return max_global
 }
 
