@@ -52,6 +52,7 @@
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/inplace)
     - [Min Max](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/Min-Max)
     - [Kadane's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Array/Kadane)
+    - [Floyd’s Cycle Detection Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Array/Floyd%E2%80%99sCycleDetection)
 
 <a href="https://www.techiedelight.com/top-25-algorithms-every-programmer-should-know/" target="_blank">Top 25 Algorithms</a>x
 
@@ -85,26 +86,27 @@ func (this *Stack) PreOrder(n *Node) {
 func main() {
 	T := &Node{Val: "N"}
 	T.Left = &Node{Val: "U"}
-	T.Right = &Node{Val: "T"}
 	T.Left.Left = &Node{Val: "T"}
 	T.Left.Right = &Node{Val: "N"}
-	T.Right.Left = &Node{Val: "H"}
-	T.Right.Right = &Node{Val: "H"}
 	T.Left.Left.Left = &Node{Val: "T"}
 	T.Left.Left.Right = &Node{Val: "O"}
-	T.Right.Left.Left = &Node{Val: "O"}
-	T.Right.Right.Left = &Node{Val: "A"}
-	T.Right.Left.Right = &Node{Val: "C"}
-	T.Right.Right.Right = &Node{Val: "R"}
 	T.Left.Left.Left.Left = &Node{Val: "H"}
-	T.Right.Left.Left.Left = &Node{Val: "N"}
 	T.Left.Left.Left.Right = &Node{Val: "N"}
-	T.Right.Left.Left.Right = &Node{Val: "G"}
-	T.Right.Right.Right.Left = &Node{Val: "O"}
-	T.Right.Right.Right.Right = &Node{Val: "E"}
 	T.Left.Left.Left.Left.Left = &Node{Val: "A"}
-	T.Right.Right.Right.Right.Right = &Node{Val: "N"}
 
+	T.Right = &Node{Val: "T"}
+	T.Right.Right = &Node{Val: "H"}
+	T.Right.Left = &Node{Val: "H"}
+	T.Right.Left.Right = &Node{Val: "C"}
+	T.Right.Left.Left = &Node{Val: "O"}
+	T.Right.Left.Left.Left = &Node{Val: "N"}
+	T.Right.Left.Left.Right = &Node{Val: "G"}
+
+	T.Right.Right.Right = &Node{Val: "R"}
+	T.Right.Right.Left = &Node{Val: "A"}
+	T.Right.Right.Right.Right = &Node{Val: "E"}
+	T.Right.Right.Right.Left = &Node{Val: "O"}
+	T.Right.Right.Right.Right.Right = &Node{Val: "N"}
 
 	my_name := &Stack{}
 	my_name.PreOrder(T)
