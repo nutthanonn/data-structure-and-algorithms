@@ -48,13 +48,13 @@
       - Dijkstra's Algorithm
       - [Bellman Ford Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/ShortestPath/BellmanFord)
 
-  - Array
+  - Array && Linkedlist
     - [inplace](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/inplace)
     - [Min Max](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/Min-Max)
     - [Kadane's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Array/Kadane)
     - [Floyd’s Cycle Detection Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Array/Floyd%E2%80%99sCycleDetection)
 
-<a href="https://www.techiedelight.com/top-25-algorithms-every-programmer-should-know/" target="_blank">Top 25 Algorithms</a>x
+<a href="https://www.techiedelight.com/top-25-algorithms-every-programmer-should-know/" target="_blank">Top 25 Algorithms</a>
 
 ### NUTTHANON THONGCHAROEN PREORDER TREE TRAVERSAL
 
