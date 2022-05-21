@@ -1,5 +1,7 @@
 /*
- Kahn's Algorithm
+
+Graph Coloring
+
 */
 
 package main
