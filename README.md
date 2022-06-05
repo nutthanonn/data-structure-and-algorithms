@@ -38,7 +38,7 @@
 
     - [Depth First Search](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/DFS)
     - [Bepth First Search](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/BFS)
-
+    - [Graph Coloring](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/GraphColoring)
     - [Minimum Spanning Tree](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/MinimumCostSpanningTree)
 
       - [Kruskal's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Graph/MinimumCostSpanningTree/Kruskals)
@@ -53,6 +53,8 @@
     - [Min Max](https://github.com/nutthanonn/data-structure-and-algorithm/tree/main/Algorithms/Array/Min-Max)
     - [Kadane's Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Array/Kadane)
     - [Floyd’s Cycle Detection Algorithm](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Array/Floyd%E2%80%99sCycleDetection)
+  - Number
+    - [karatsuba](https://github.com/nutthanonn/data-structure-and-algorithms/tree/main/Algorithms/Number/Karatsuba)
 
 <a href="https://www.techiedelight.com/top-25-algorithms-every-programmer-should-know/" target="_blank">Top 25 Algorithms</a>
 
