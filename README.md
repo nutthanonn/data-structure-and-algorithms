@@ -277,7 +277,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="./assets/insertion-sort.png" width="100%">
+<img src="./assets/Insertion-sort.png" width="100%">
 </p>
 
 # Selection Sort
@@ -556,15 +556,11 @@ _3_ ทำซ้ำข้อ 1-3 จนกว่าจะครบจำนว�
 
 - Algorithmic Paradigm: `Divide and Conquer`
 
-`Example`
-
 # Kadane's Algorithm
 
 > Kadane's Algorithm :bookmark_tabs:
 
 - ไว้หา sub array ที่มีผลรวมมากที่สุด
-
-`Example`
 
 # Floyd’s Cycle Detection Algorithm
 
