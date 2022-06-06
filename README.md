@@ -76,8 +76,8 @@
 - [Sorting](#sorting)
 - [Searching](#searching)
 - [Dynamic Programming](#dynamic-programming)
-- [Graph & Tree](#graph-&-tree)
-- [Array & Likedlist](#array-&-linkedlist)
+- [Graph and Tree](#graph-and-tree)
+- [Array and Linkedlist](#array-and-linkedlist)
 - [Number](#number)
 
 <hr/>
@@ -450,7 +450,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 <br/>
 <br/>
 
-# Graph & Tree
+# Graph and Tree
 
 [top](#algorithms)
 
@@ -580,7 +580,7 @@ _3_ ทำซ้ำข้อ 1-3 จนกว่าจะครบจำนว�
 <img src="./assets/bellman-ford.png" width="100%">
 </p>
 
-# Array & Likedlist
+# Array and Linkedlist
 
 [top](#algorithms)
 
