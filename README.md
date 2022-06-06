@@ -132,7 +132,7 @@ type node struct {
 จะเห็นได้ชัดจากก้อน struct ตัวนี้ว่าจะเก็บ address ของ node ตัวถัดไปโดยในที่นี้เราตั้งชื่อว่า Next
 
 <p align="center">
-<img src="./assets/linkedlist.png" width="100%">
+<img src="./assets/Linkedlist.png" width="100%">
 </p>
 
 # Binary Tree
