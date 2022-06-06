@@ -95,7 +95,7 @@
   - pop :arrow_right: pop ตัวสุดท้ายออกจาก stack
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/stack.jpeg" width="100%">
 </p>
 
 # Queue
@@ -110,7 +110,7 @@
   - pop :arrow_right: pop ตัวแรกออกจาก queue
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/queue.png" width="100%">
 </p>
 
 # Linkedlist
@@ -132,7 +132,7 @@ type node struct {
 จะเห็นได้ชัดจากก้อน struct ตัวนี้ว่าจะเก็บ address ของ node ตัวถัดไปโดยในที่นี้เราตั้งชื่อว่า Next
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/linkedlist.png" width="100%">
 </p>
 
 # Binary Tree
@@ -160,7 +160,7 @@ type node struct {
 ```
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/binary-search-tree.png" width="100%">
 </p>
 
 # Tree Traversal
@@ -215,7 +215,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/in-pre-post.jpeg" width="100%">
 </p>
 
 # Heaps
@@ -237,7 +237,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/heaps.png" width="100%">
 </p>
 
 # Sorting
@@ -265,7 +265,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/bubble-sort.png" width="100%">
 </p>
 
 # Insertion Sort
@@ -277,7 +277,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/insertion-sort.png" width="100%">
 </p>
 
 # Selection Sort
@@ -289,7 +289,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/selection-sort.png" width="100%">
 </p>
 
 # Merge Sort
@@ -305,7 +305,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/merge-sort.png" width="100%">
 </p>
 
 # Counting Sort
@@ -320,7 +320,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/counting-sort.png" width="100%">
 </p>
 
 # Quick Sort
@@ -339,7 +339,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/quick-sort.png" width="100%">
 </p>
 
 # Searching
@@ -369,7 +369,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/binary-search.png" width="100%">
 </p>
 
 # Jump Search
@@ -382,7 +382,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/jump-search.jpeg" width="100%">
 </p>
 
 # Linear Search
@@ -394,7 +394,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/linear-search.png" width="100%">
 </p>
 
 # Dynamic Programming
@@ -402,7 +402,14 @@ func POST_ORDER_TRAVERSAL(n *Node){
 > Dynamic Programming :desktop_computer:
 
 - Dynamic Programming เป็นเทคนิคหนึ่งสำหรับแก้ปัญหาที่ซับซ้อน โดยการแก้ปัญหาย่อย ตั้งแต่ปัญหาขนาดย่อยที่สุดขึ้นมาก่อน แล้วค่อย ๆ เพิ่มขอบเขตขึ้นมาจนถึงปัญหาที่มีขนาดใหญ่ที่สุด ส่วนมากมักจะประยุกต์ใช้กับ recursive function
+
+`Example`
+
+<p align="center">
+<img src="./assets/dynamic-programming.png" width="100%">
+</p>
 <hr/>
+
 <br/>
 <br/>
 <br/>
@@ -410,7 +417,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 # Graph & Tree
 
 - [Depth First Search](#depth-first-search)
-- [Bepth First Search](#bepth-first-search)
+- [Breadth First Search](#breadth-first-search)
 - [Graph Coloring](#graph-coloring)
 - [Minimum Spanning Tree](#minimum-spanning-tree)
 - [Shortest Path](#shortest-path)
@@ -429,19 +436,19 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/depth-first-search.jpeg" width="100%">
 </p>
 
-# Bepth First Search
+# Breadth First Search
 
-> Bepth First Search Algorithm :mag:
+> Breadth First Search Algorithm :mag:
 
 - Bepth First Search หรืออีกชื่อนึงคือ การค้นหาแบบกว้างจะใช้ Queue ในการช่วย การค้นหาแบบกว้างคือเราจะค้นหากว้างๆรอบๆให้หมดก่อนแล้วค่อยค้นหาลงไปในชั้นถัดๆไปของ graph
 
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/breadth-first-search.jpeg" width="100%">
 </p>
 
 # Minimum Spanning Tree
@@ -464,7 +471,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/kruskal.jpeg" width="100%">
 </p>
 
 # Shortest Path
@@ -488,7 +495,7 @@ func POST_ORDER_TRAVERSAL(n *Node){
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/floyd-warshall.jpeg" width="100%">
 </p>
 
 # Bellman Ford Algorithm
@@ -520,7 +527,7 @@ _3_ ทำซ้ำข้อ 1-3 จนกว่าจะครบจำนว�
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/bellman-ford.png" width="100%">
 </p>
 
 # Array & Likedlist
@@ -541,12 +548,6 @@ _3_ ทำซ้ำข้อ 1-3 จนกว่าจะครบจำนว�
 
 - Inplace Algo เป็นอัลกอที่ไว้ Reverse Array โดยใช้ for-loop คิดถึงแค่ n ÷ 2 ของ size of array
 
-`Example`
-
-<p align="center">
-<img src="" width="100%">
-</p>
-
 # Min-Max
 
 > Tournament Method Algorithm in Golang :bookmark:
@@ -557,10 +558,6 @@ _3_ ทำซ้ำข้อ 1-3 จนกว่าจะครบจำนว�
 
 `Example`
 
-<p align="center">
-<img src="" width="100%">
-</p>
-
 # Kadane's Algorithm
 
 > Kadane's Algorithm :bookmark_tabs:
@@ -569,21 +566,11 @@ _3_ ทำซ้ำข้อ 1-3 จนกว่าจะครบจำนว�
 
 `Example`
 
-<p align="center">
-<img src="" width="100%">
-</p>
-
 # Floyd’s Cycle Detection Algorithm
 
 > Floyd’s Cycle Detection Algorithm :cyclone:
 
 - Aloorithm นี้ไว้หา loop ของ linkedlist โดยจะให้ q ถัดไปทีละ 1 node แต่ p จะถัดไปทีละ 2 node และใน Cycle ถ้า p == q มันก็จะรู้ได้ทันทีเลยว่า linkedlist นี้มี Cycle
-
-`Example`
-
-<p align="center">
-<img src="" width="100%">
-</p>
 
 # Number
 
@@ -606,5 +593,5 @@ _3_ ทำซ้ำข้อ 1-3 จนกว่าจะครบจำนว�
 `Example`
 
 <p align="center">
-<img src="" width="100%">
+<img src="./assets/karatsuba.png" width="100%">
 </p>
