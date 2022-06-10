@@ -1,6 +1,6 @@
 /*
 
-Graph Coloring
+Kahn’s Topological Sort Algorithm
 
 */
 
